@@ -422,6 +422,7 @@ class Device:
     def error_attrs(self):
         return {
             'weight': self.detail.get('weight'),
+            'status': self.error,
         }
 
     @property
